@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-python-12-homework-16"
+version = "0.1.0"
+description = ""
+authors = ["Daria Jakuszewicz <d.jakuszewicz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0rc9"
+pytest = "^8.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
